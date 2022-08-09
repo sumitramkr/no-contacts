@@ -84,3 +84,7 @@ input {
   border-width: 3px;
   height: 2.3rem;
 }
+
+input::placeholder {
+  text-align: center;
+}
