@@ -50,11 +50,17 @@ h2 {
 }
 
 .phone {
-  margin: 22rem 0 !important;
-  /* width: 100%; */
+  margin-top: 20rem !important;
+}
+
+.buttonLink {
+  margin-top: 1rem !important;
+}
+
+.col-12 {
   display: flex;
   justify-content: center;
-  align-items: stretch;
+  align-items: flex-end;
   flex-wrap: nowrap;
   align-content: stretch;
   flex-direction: row;

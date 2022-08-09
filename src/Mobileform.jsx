@@ -8,19 +8,18 @@ function Mobileform() {
   let phoneNumber = "https://wa.me/" + value;
   console.log(phoneNumber);
   return (
-    <div>
-      <div className="phone">
+    <div className="phone row">
+      <div className="col-12">
         <PhoneInput
           placeholder="+CCC XXXXXXXXXX"
           value={value}
           onChange={setValue}
         />
-
-        <div className="buttonLink">
-          <a className="btn btn-success" href={phoneNumber} role="button">
-            Message
-          </a>
-        </div>
+      </div>
+      <div className="buttonLink col-12">
+        <a className="btn btn-success" href={phoneNumber} role="button">
+          Message
+        </a>
       </div>
     </div>
   );
