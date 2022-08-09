@@ -5,7 +5,7 @@ export default function Header() {
     <div className="header">
       <div id="header">
         <h1>Message WhatsApp Number</h1>
-        <h2>Without Saving It</h2>
+        <h2>Without Saving It!</h2>
       </div>
     </div>
   );
