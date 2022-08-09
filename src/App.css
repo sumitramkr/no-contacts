@@ -66,17 +66,11 @@ h2 {
   --bs-btn-line-height: 1.2 !important;
 }
 
-input {
+input,
+select:focus,
+textarea {
   border-color: black;
   border-radius: 0.5rem;
   border-width: 3px;
   height: 2.3rem;
-}
-
-@media screen and (max-width: 767px) {
-  input,
-  select,
-  textarea {
-    font-size: 16px;
-  }
 }
