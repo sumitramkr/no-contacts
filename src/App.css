@@ -51,7 +51,7 @@ h2 {
 
 .phone {
   margin: 22rem 0 !important;
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   justify-content: center;
   align-items: stretch;
