@@ -6,7 +6,7 @@ import Mobileform from "./Mobileform";
 
 function App() {
   return (
-    <div>
+    <div id="background">
       <Header></Header>
       <Mobileform></Mobileform>
       <Footer></Footer>
