@@ -1,3 +1,7 @@
+body {
+  --bs-body-font-size: 16px;
+}
+
 #background {
   z-index: -1;
   background-image: url(/public/photos/bg.png);
@@ -46,7 +50,7 @@ h2 {
 }
 
 .phone {
-  margin: 22rem !important;
+  margin: 22rem 0 !important;
   width: 100%;
   display: flex;
   justify-content: center;
