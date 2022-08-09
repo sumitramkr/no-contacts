@@ -66,9 +66,7 @@ h2 {
   --bs-btn-line-height: 1.2 !important;
 }
 
-input,
-select:focus,
-textarea {
+input {
   font-size: 16px !important;
   border-color: black;
   border-radius: 0.5rem;
