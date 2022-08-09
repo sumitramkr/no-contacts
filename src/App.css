@@ -1,5 +1,5 @@
 body {
-  /* background-image: url(/public/photos/bg.png); */
+  background-image: url(/public/photos/bg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -9,14 +9,46 @@ body {
   height: 100%;
   width: 100%;
 }
+
+h1 {
+  font-size: 2.2rem !important;
+  color: hsl(150, 92%, 19%);
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+
+h2 {
+  font-size: 1.5rem !important;
+  color: hsl(150, 92%, 19%);
+}
+
+.header {
+  /* background-color: #198754; */
+  padding-top: 1rem;
+  text-align: justify;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.p-3 {
+  background-color: hsl(150, 92%, 19%);
+  opacity: 50%;
+}
+
 .form-control {
   margin-bottom: 1rem;
 }
 
 .phone {
-  margin: 25px;
-  height: 200px;
-  outline: dashed 1px black;
+  margin: 22rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,10 +56,19 @@ body {
 
 .PhoneInputInput {
   margin-right: 1rem;
+  background-color: rgb(201, 255, 201);
+}
+
+.btn-success {
+  --bs-btn-border-color: black !important;
+  --bs-btn-border-width: 3px !important;
+  --bs-btn-bg: hsl(150, 92%, 19%) !important;
+  --bs-btn-line-height: 1.2 !important;
 }
 
 input {
-  border-color: green;
+  border-color: black;
   border-radius: 0.5rem;
-  border-width: 0.4rem;
+  border-width: 3px;
+  height: 2.3rem;
 }
