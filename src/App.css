@@ -48,7 +48,8 @@ h2 {
 }
 
 .phone {
-  margin: 22rem 10rem;
+  margin: 22rem 0rem !important;
+  padding: 0 10rem !important;
   display: flex;
   justify-content: center;
   align-items: center;
