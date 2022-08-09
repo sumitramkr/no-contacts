@@ -48,6 +48,7 @@ h2 {
 }
 
 .phone {
+  transform: scale(1.2);
   margin: 22rem 0 !important;
   display: flex;
   justify-content: center;
@@ -69,7 +70,6 @@ h2 {
 }
 
 input {
-  transform: scale(0.875);
   border-color: black;
   border-radius: 0.5rem;
   border-width: 3px;
