@@ -1,13 +1,11 @@
-body {
+#background {
+  z-index: -1;
   background-image: url(/public/photos/bg.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
   background-size: cover;
-  height: 100%;
-  width: 100%;
+  background-position: center;
 }
 
 h1 {
