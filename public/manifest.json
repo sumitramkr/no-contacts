@@ -1,0 +1,37 @@
+{
+  "name": "WhatsApp Unsaved Number Message",
+  "short_name": "WhatsApp Unsaved Number Message",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/photos/maskable.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/photos/logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/photos/logo256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "/photos/logo384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "/photos/logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
