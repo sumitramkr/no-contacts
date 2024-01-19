@@ -1,17 +1,19 @@
 import React from "react";
-import { MDBFooter } from "mdb-react-ui-kit";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 export default function Footer() {
-  return (
-    <div id="footer">
-      <MDBFooter className="text-center text-lg-left">
-        <div className="text-center p-3 text-white">
-          &copy; {new Date().getFullYear()} Copyright:{" "}
-          <a className="text-white" href="https://github.com/sumitramkr/some">
-            @sumitramkr
-          </a>
-        </div>
-      </MDBFooter>
-    </div>
-  );
+    return (
+        <Container className="footer">
+            <Row>
+                <Col>
+                    &copy; {new Date().getFullYear()} Copyright:{" "}
+                    <a className="text-white" href="https://github.com/sumitramkr/some">
+                        @sumitramkr
+                    </a>
+                </Col>
+            </Row>
+        </Container>
+    );
 }

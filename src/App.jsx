@@ -5,13 +5,15 @@ import Header from "./Header";
 import Mobileform from "./Mobileform";
 
 function App() {
-  return (
-    <div id="background">
-      <Header></Header>
-      <Mobileform></Mobileform>
-      <Footer></Footer>
-    </div>
-  );
+    return (
+        <div id="background">
+        <div className="app">
+            <Header />
+            <Mobileform />
+            <Footer />
+            </div>
+        </div>
+    );
 }
 
 export default App;
