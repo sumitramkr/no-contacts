@@ -5,33 +5,38 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import { Card } from "react-bootstrap";
 
 function Mobileform() {
     const [value, setValue] = useState();
-    let phoneNumber = "https://wa.me/" + value;
+    let phoneNumber = "https://wa.me/+" + value;
     console.log(phoneNumber);
     return (
         <Container className="mobileForm">
-            <Row>
-                <Col>
-                    <PhoneInput
-                        country={"in"}
-                        preferredCountries={["in", "us"]}
-                        placeholder="Mobile Number"
-                        value={value}
-                        onChange={phone => setValue(phone)}
-                        containerClass={"phoneInput"}
-                        inputClass={"phoneInput"}
-                    />
-                </Col>
-            </Row>
-            <Row className="buttonRow">
-                <Col>
-                    <a className="btn btn-success" href={phoneNumber} role="button">
-                        Message
-                    </a>
-                </Col>
-            </Row>
+            <Card className="card border-light">
+                <Card.Body>
+                    <Row>
+                        <Col>
+                            <PhoneInput
+                                country={"in"}
+                                preferredCountries={["in", "us"]}
+                                placeholder="Mobile Number"
+                                value={value}
+                                onChange={phone => setValue(phone)}
+                                containerClass={"phoneInput"}
+                                inputClass={"phoneInput"}
+                            />
+                        </Col>
+                    </Row>
+                    <Row className="buttonRow p-0">
+                        <Col>
+                            <a className="btn btn-success w-100 fw-bold" target="_blank" rel="noreferrer" href={phoneNumber} role="button">
+                                {"Message".toUpperCase()}
+                            </a>
+                        </Col>
+                    </Row>
+                </Card.Body>
+            </Card>
         </Container>
     );
 }

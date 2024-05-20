@@ -5,8 +5,7 @@ body {
 #background {
   z-index: -1;
   /* background-image: url(/public/photos/bg.png); */
-  background-color: #cccccc;
-  background-image: repeating-linear-gradient(green, rgb(156, 239, 156), green);
+  background-color: #ffffff;
   height: 100vh;
   width: 100vw;
   position: fixed;
@@ -24,6 +23,16 @@ body {
   height: 100vh;
   width: 100vw;
   background-color: "red";
+}
+
+.card {
+  background-color: rgb(201, 255, 201) !important;
+  border-radius: 1rem;
+  border-color: green;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 0 10px 0 rgba(1, 40, 11, 0.1);
+
 }
 
 h1 {
@@ -70,12 +79,12 @@ h2 {
 }
 
 .phoneInput {
-  background-color: rgb(201, 255, 201) !important;
   border-radius: 1rem;
   border-color: green;
 }
 
 .special-label{
+  visibility: hidden;
   background-color: rgb(171, 248, 171) !important;
   border-radius: 0.1rem;
 }

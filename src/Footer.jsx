@@ -7,9 +7,9 @@ export default function Footer() {
     return (
         <Container className="footer">
             <Row>
-                <Col>
+                <Col className="text-success">
                     &copy; {new Date().getFullYear()} Copyright:{" "}
-                    <a className="text-white" href="https://github.com/sumitramkr/some">
+                    <a className="text-success" href="https://github.com/sumitramkr/some">
                         @sumitramkr
                     </a>
                 </Col>
