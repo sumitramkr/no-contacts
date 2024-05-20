@@ -11,32 +11,30 @@ function Mobileform() {
     let phoneNumber = "https://wa.me/+" + value;
     console.log(phoneNumber);
     return (
-        <Container className="mobileForm">
-            <Card className="card border-light">
-                <Card.Body>
-                    <Row>
-                        <Col>
-                            <PhoneInput
-                                country={"in"}
-                                preferredCountries={["in", "us"]}
-                                placeholder="Mobile Number"
-                                value={value}
-                                onChange={phone => setValue(phone)}
-                                containerClass={"phoneInput"}
-                                inputClass={"phoneInput"}
-                            />
-                        </Col>
-                    </Row>
-                    <Row className="buttonRow p-0">
-                        <Col>
-                            <a className="btn btn-success w-100 fw-bold" target="_blank" rel="noreferrer" href={phoneNumber} role="button">
-                                {"Message".toUpperCase()}
-                            </a>
-                        </Col>
-                    </Row>
-                </Card.Body>
-            </Card>
-        </Container>
+        <Card className="card border-light text-center">
+            <Card.Body>
+                <Row>
+                    <Col>
+                        <PhoneInput
+                            country={"in"}
+                            preferredCountries={["in", "us"]}
+                            placeholder="Mobile Number"
+                            value={value}
+                            onChange={phone => setValue(phone)}
+                            containerClass={"phoneInput"}
+                            inputClass={"phoneInput"}
+                        />
+                    </Col>
+                </Row>
+                <Row className="buttonRow p-0">
+                    <Col>
+                        <a className="btn btn-success w-100 fw-bold" target="_blank" rel="noreferrer" href={phoneNumber} role="button">
+                            {"Message".toUpperCase()}
+                        </a>
+                    </Col>
+                </Row>
+            </Card.Body>
+        </Card>
     );
 }
 
